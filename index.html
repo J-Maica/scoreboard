@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Score Board</title>
+</head>
+<body>
+
+    <div class="team_name">
+        <div>
+            <label for="teamA">Enter Team A Name:</label>
+            <input type="text" id="teamA" required>
+        </div>
+       
+        <div>
+            <label for="teamB">Enter Team B Name:</label>
+            <input type="text" id="teamB" required>
+        </div>
+
+        <div>
+            <label for="round_count">Enter Round Number:</label>
+            <input type="text" id="round_count">
+        </div>
+    
+        <button type="button" onclick="submit()">Go to score board</button>
+    </div>
+
+    <div class="team_cont">
+        <div id="teamA_Cont">
+        </div>
+    
+        <div id="teamB_Cont">
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
