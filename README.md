@@ -8,3 +8,8 @@ This project was created as part of my JavaScript practice exercises
 * Buttons to increment, decrement, and reset each team's score.
 * It validates the team names to ensure that they are not empty of the same.
 * Hide round nummber if not specified
+
+## Technologies
+* HTML
+* CSS
+* JavaScript
